@@ -1,0 +1,5 @@
+# The dark half of "theme = light:...,dark:...": reproduces the look this config had
+# before light/dark switching, i.e. Ghostty's default palette with a darker background.
+# It lives in a theme file rather than in the config because colours set directly in the
+# config override whichever theme is active - including the light one.
+background = #0c1118
